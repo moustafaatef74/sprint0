@@ -1,0 +1,42 @@
+
+$ git init
+
+$ git add .
+
+$ git status
+
+$ git commit -m "Adding the 3 files"
+
+$ git rm '3.1.txt'
+
+$ git commit -m 'i removed the second file'
+
+$ git log
+
+$ git revert
+
+$ git remote add origin https://github.com/moustafaatef74/sprint0.git
+
+$ git push -u origin master
+
+$ git branch ReadMe
+
+$ git checkout ReadMe
+
+$ git add 'README.md'
+
+$ git status
+
+$ git commit -m ' added the readme file'
+
+$ git checkout master
+
+$ git merge ReadMe
+
+$ git push
+
+git add 'AllMyCommands.txt'
+
+git commit -m 'Adding AllMyCommands'
+
+git push
